@@ -1,0 +1,33 @@
+{
+  "name": "card_memory",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "npm run format:write && npm run lint:fix",
+    "check": "npm run format:check && npm run lint:check",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "next": "13.0.7",
+    "prettier": "^2.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.57.1"
+  }
+}
