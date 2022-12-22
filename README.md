@@ -29,3 +29,5 @@ yarn dev
 ![plot](./components/guideimages/s2.png)
 ![plot](./components/guideimages/s3.png)
 ![plot](./components/guideimages/s4.png)
+![plot](./public/1.png)
+![plot](./public/2.png)
